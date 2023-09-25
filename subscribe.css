@@ -1,0 +1,203 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    height: 120vh;
+    width: 100%;
+    background-image: url(./asset/sea.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    padding: 7px 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.active{
+    color: #3BACB6;
+    background-color: white;
+}
+
+nav ul li a:hover{
+    color: #3BACB6;
+    background-color: white;
+}
+
+.sign{
+    font-weight: bold;
+    color: white;
+    background-color: #3BACB6;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 32px;
+    transition: .6s;
+}
+
+.sign:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* box */
+.box {
+    width: 600px;
+    padding: 40px;
+    margin: 2rem 0;
+    background:rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.input {
+	width: 99%;
+    padding: 0.75rem;
+    padding-left: 3.25rem;
+	text-align: left;
+	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 20px;
+	border-radius: 60px;
+	border: 3px solid #E0F5EC;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+	padding: 10px 10px 10px 15px;
+	color: black;
+	font-size: 25px;
+}
+
+.form-input {
+    position: relative;
+}
+
+.box-title {
+    color: white;
+    margin-bottom: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.text-agree{
+    color: white;
+}
+
+input:focus, select:focus{
+	outline: none;
+}
+
+.subs-btn {
+	color: white;
+	text-decoration: none;
+	background-color:  #3BACB6;
+	width: 80%;
+	padding: 15px;
+	font-size: 24px;
+	border-radius: 60px;
+    margin-top: 20px;
+	text-align: center;
+    transition: .6s;
+}
+
+.subs-btn:hover{
+    color: #3BACB6;
+    background-color: white;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.social{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social a{
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: #3BACB6;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.social a:hover{
+    background-color: white;
+    color: #3BACB6;
+}
+
+.copy{
+    color: #82DBD8;
+    position: absolute;
+    font-size: 12px;
+    bottom: 35px;
+}
